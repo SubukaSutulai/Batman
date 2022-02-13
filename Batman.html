@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/logo.svg" type="image/x-icon">
     <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/swiper-bundle.css">
     <link rel="stylesheet" href="style/style.css">
     <title>Batman</title>
 </head>
@@ -57,16 +58,56 @@
                 </div>
             </div>
             <h1 class="main_header">Бэтмен</h1>
-            <div class="main_description">
-                <p>После двух лет поисков правосудия на улицах Готэма для
-                   своих сограждан Бэтмен становится олицетворением беспощадного
-                   возмездия. Когда в городе происходит серия жестоких нападений
-                   на представителей элиты, загадочные улики приводят Брюса
-                   Уэйна в самые темные закоулки преступного мира. Теперь под
-                   прицелом оказывается сам Бэтмен.</p>
+            <div class="main_description-wrap">
+                <div class="main_description">
+                    <p>После двух лет поисков правосудия на улицах Готэма для
+                       своих сограждан Бэтмен становится олицетворением беспощадного
+                       возмездия. Когда в городе происходит серия жестоких нападений
+                       на представителей элиты, загадочные улики приводят Брюса
+                       Уэйна в самые темные закоулки преступного мира. Теперь под
+                       прицелом оказывается сам Бэтмен.</p>
+                </div>
+                <div class="main_button-play">
+                    <div class="main_button-dark">
+                        <img src="img/play.svg" alt="">
+                    </div>
+                </div>
             </div>
             <a href="#" class="main_button">Купить билеты</a>
-        </div>
+
+            <div class="main_slider-wrap">
+                <div class="main-slider swiper">
+                    <div class="swiper-wrapper">
+                        <div class="main_slider-slide swiper-slide">
+                            <img src="img/Treler1.jpg" alt="">
+                            <span>Трейлер #1</span>
+                        </div>
+                        <div class="main_slider-slide swiper-slide">
+                            <img src="img/Treler2.jpg" alt="">
+                            <span>Трейлер #2</span>
+                        </div>
+                        <div class="main_slider-slide swiper-slide">
+                            <img src="img/Treler1.jpg" alt="">
+                            <span>Трейлер #3</span>
+                        </div>
+                        <div class="main_slider-slide swiper-slide">
+                            <img src="img/Treler2.jpg" alt="">
+                            <span>Трейлер #4</span>
+                        </div>
+                        <div class="main_slider-slide swiper-slide">
+                            <img src="img/Treler1.jpg" alt="">
+                            <span>Трейлер #5</span>
+                        </div>
+                        <div class="main_slider-slide swiper-slide">
+                            <img src="img/Treler2.jpg" alt="">
+                            <span>Трейлер #6</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="main_slider-arrow">
+                    <img src="img/arrow.svg" alt="">
+                </div>
+            </div>
     </main>
     <footer class="footer">
         <div class="container">
@@ -86,5 +127,7 @@
             </ul>
         </div>
     </footer>
+    <script src="JavaScript/swiper-bundle.js"></script>
+    <script src="JavaScript/main.js"></script>
 </body>
 </html>
