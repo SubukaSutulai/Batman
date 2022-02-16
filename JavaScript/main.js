@@ -28,3 +28,23 @@ const swiper = new Swiper('.main-slider', {
   {
     menuModile.style.display = 'none';
   })
+
+  // Воспроизведение видео
+
+  var videoEl =  document.getElementById("video");
+
+  var videoOpenClick = function(e)
+  {
+    e.preventDefault();
+    //var audioEl = document.createElement("audio");
+    //audioEl.src = "video/Batman.mp4";
+    //audioEl.autoplay = "true";
+    //document.body.appendChild(audioEl);
+    let video = document.querySelector(".video-bg video");
+    document.querySelector(".main").style.background = "none";
+    document.querySelector(".video-bg").style.opacity = "1";
+    video.play();
+    video.className = "sleepAnim";
+
+  };
+  videoEl.addEventListener("click", videoOpenClick);
