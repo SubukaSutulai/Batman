@@ -522,7 +522,7 @@ img {
 }
 .sleepAnim{
     animation-name: slide;
-    animation-duration: 5s;
+    animation-duration: 3s;
 }
 
 .video-bg {
